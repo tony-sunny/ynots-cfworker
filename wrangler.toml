@@ -1,0 +1,14 @@
+name = "wandering-wood-cef6"
+main = "src/worker.js"
+compatibility_date = "2024-08-04"
+workers_dev = true
+
+[[routes]]
+pattern = "ynots.dev"
+zone_name = "ynots.dev"
+custom_domain = true
+
+[[routes]]
+pattern = "www.ynots.dev"
+zone_name = "ynots.dev"
+custom_domain = true
