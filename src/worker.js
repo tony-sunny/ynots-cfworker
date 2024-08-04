@@ -9,20 +9,22 @@
  */
 
 const html = `<!DOCTYPE html>
-  <html lang="en">
-  <body>
-    <h1>Hello World</h1>
-    <a href="https://blog.ynots.dev">Blog</a>
-  </body>
+<html lang="en">
+    <head>
+        <title>Ynot Dev</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <a href="https://blog.ynots.dev">Blog</a>
+    </body>
 </html>`;
 
 export default {
-  async fetch(request, env, ctx) {
-
-    return new Response(html, {
-      headers: {
-        "content-type": "text/html;charset=UTF-8",
-      },
-    });
-  },
+	async fetch(request, env, ctx) {
+		return new Response(html, {
+			headers: {
+				'content-type': 'text/html;charset=UTF-8',
+			},
+		});
+	},
 };
