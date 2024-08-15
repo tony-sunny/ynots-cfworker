@@ -1,6 +1,6 @@
 {
   "name": "wandering-wood-cef6",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
@@ -8,6 +8,6 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "^3.60.3"
+    "wrangler": "3.71.0"
   }
 }
