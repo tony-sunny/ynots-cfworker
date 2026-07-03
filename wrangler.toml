@@ -1,7 +1,9 @@
 name = "wandering-wood-cef6"
-main = "src/worker.js"
 compatibility_date = "2024-08-04"
 workers_dev = true
+
+[assets]
+directory = "./public"
 
 [[routes]]
 pattern = "ynots.dev"
